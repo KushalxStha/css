@@ -1,43 +1,70 @@
 div{
-  background-color:#3FC1C9;
+  
   padding: 10px 10px 0 10px;
+}
+:root{
+  --BG-COLOR:hwb(166 79% 2%);
 }
 
 body{
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+  height: 100vh;
 }
 
 h1{
-  margin-top: 20px;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
+  color: #66BFBF;
 }
 
 h2{
   font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
 }
 
 h3{
   font-family: 'Montserrat', sans-serif;
+  color: #11999E;
 }
 
 .top-container{
+  background-color:var(--BG-COLOR);
   position: relative;
   padding-top: 100px;
 }
 
-.middle-container{
-  background-color: red;
-  height: 200px;
-  width: 200px;
+hr{
+  margin: 100px 44%;
+  border: none;
+  border-top: 20px dotted #eaf6f6;
 }
 
-.bottom-container{
-  background-color: green;
-  height: 200px;
-  width: 200px;
+.middle-container{
+  margin-top: 100px;
 }
+
+.profile{
+  width: 50%;
+  line-height: 2;
+  margin: auto;
+}
+
+.contact-me{
+  width: 50%;
+  line-height: 2;
+  margin: auto;
+}
+
+a{
+  text-decoration: none;
+  color:#11999E;
+  padding: 20px;
+}
+
 .top-cloud{
   position:absolute;
   right: 350px;
@@ -47,4 +74,49 @@ h3{
 .bottom-cloud{
   position:absolute;
   left: 350px;
+}
+div{
+  padding: 0;
+}
+
+.iprofile{
+  height: 100px;
+  width: 100px;
+}
+.lskills{
+  width: 25%;
+  height: auto;
+  float: left;
+  margin-right: 20px;
+}
+.rskills{
+  width: 25%;
+  height: auto;
+  float: right;
+  margin-left: 20px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+button{
+  margin-bottom: 50px;
+  border: none;
+  background-color: #11999E;
+  padding: 8px;
+  border-radius: 10px;
+}
+.btn{
+  color: white;
+}
+
+.bottom-container{
+  background-color: #66bfbf;
+  /* height: 150px; */
+  line-height: 3.5;
+  color: #eaf6f6;
+  justify-content: space-around;
 }
