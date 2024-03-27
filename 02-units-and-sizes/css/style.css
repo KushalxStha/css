@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    border: dashed red;
+    width: 50%;
+    font-size: 2rem;
+    padding: 0.5em;
+}
+p{
+    font-size: 2rem;
+    width: 50ch;
+}
+body{
+    min-height: 100vh;
+}
