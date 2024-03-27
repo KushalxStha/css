@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    /*border:solid red 2px;*/
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 50px;
+    font-size: 25px;
+    line-height: normal;
+}
+
+p{
+    color: blueviolet;
+    font-size: 20px;
+}
+.p2{
+    font-style: italic;
+    color:rgb(29, 197, 29);
+}
+.p3{
+    color:crimson;
+    font-size: inherit;  /*Inherits the value of font size from body overriding the value from p*/ 
+}
+span{
+    text-transform:uppercase;
+}
