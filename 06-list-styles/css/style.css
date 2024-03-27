@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body{
+    padding: 5% 10%;
+    font-size: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+ol{
+    list-style-type: decimal;   /*it leaves the gap of list style type so, padding 0 is used to fill it.*/
+    padding: 0;
+    
+}
+
+ul{
+    list-style-type: square;
+    text-align: center;      /*Aligns only text to the center.*/
+    list-style-position: inside;  /*Specifies the position of the list-item markers (bullet points)*/
+    color: blue;
+    line-height: 1.6;
+    
+    /* list-style-image: url(../image/checkmark.png); */   /*It is used to insert image as an unordering list*/
+    
+    /* list-style: square url(../image/checkmark.png) inside; */   /*It is used as short method for style -type, -image and -position.*/
+}
+
+ul li:nth-child(1) {       /*Can also use "odd" or "even" inside () */
+    color: red;
+}
+
+ul li::marker{    /*Pseudo Element, it is represented by :: */
+    color: rgb(32, 211, 32);
+    content: "Only $5  ";
+}
