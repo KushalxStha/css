@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body{
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h2:hover{
+    background-color: black;
+    color: white;
+}
+
+a{                         /*Default values and properties*/
+    text-decoration: none;
+    color: hsl(240, 100%, 50%);
+    cursor: pointer;
+}                        
+
+a:visited{
+    color:blueviolet;
+}
+
+a:hover, a:focus{      /*Focus: Visible when tabbing through the links*/
+    color:hsl(200, 100%, 50%);    /*Keeping s and l same as Anchor to make it look slightly different*/
+    opacity: 0.8;    /*Range:0-1*/
+    background-color: black;
+}
+
+a:active{
+    color: red;
+    background-color: black;
+}
