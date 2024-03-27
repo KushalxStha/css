@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 5px dotted red;
+    font-size: 1.5rem;
+    padding: 1em;
+    margin: 1.5rem;
+    outline: solid blueviolet 3.5px;
+    outline-offset:-15px;
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    margin: 10px auto; /*Auto gives margin automatically keeping equal distance on the sides.*/
+    background-color: green;
+    border: 3px solid black;
+    border-radius: 50px;   /*Making circle*/
+}
