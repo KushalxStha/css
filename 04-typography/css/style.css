@@ -1,0 +1,31 @@
+/*
+
+Typography is a way that text is arranged and presented.
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body{
+    padding: 10%;
+    font-size: 1.5rem;
+    /* font-style:italic */
+    /* font-family:sans-serif; */     /*Serif (has feets),san-serif, monospace, fantasy*/
+
+    font-family: 'Ubuntu', sans-serif;
+}
+p{
+    line-height: 1.4;
+    text-transform: capitalize;
+    /*text-decoration: line-through;*/
+    /* text-align: justify; */
+    /* text-indent: 3em; */         /*Creates a gap in first line at the beginning*/
+    /* letter-spacing: 0.1em; */
+    /* word-spacing: 0.1em; */
+    
+    /* font-weight:600; */      /*Boldness ranging from 100-900*/
+}
+input, button{
+    font-size: inherit;
+    font-family: inherit;
+}
