@@ -1,0 +1,33 @@
+
+body{
+    font-size: 1.5rem;
+    font-family: "Ubuntu", sans-serif;
+    line-height: 1.8rem;
+}
+
+.float{
+    height: 150px;
+    width: 150px;
+    background-color:black;
+    padding:15px;
+    box-sizing: border-box;
+    color: whitesmoke;
+}
+
+.one{
+    float: left;
+    margin-right: 10px;
+}
+
+.two{
+    float: right;
+    margin-left: 10px;
+}
+
+section{
+    background-color: bisque;
+    border: solid black 2px;
+    padding: 1rem;
+    /* overflow: auto; */
+    display: flow-root;         /*Does same as above but this more Correct approach*/
+}
